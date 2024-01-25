@@ -1,0 +1,48 @@
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link href="./style.css" rel="stylesheet">
+  
+  <script src="./app.js" defer></script>
+ 
+
+</head>
+
+<body class="body">
+    <main class="main">
+       
+        <div class="container__input">
+             <div class="textArea">
+            <textarea placeholder="Escribe tu texto aqui" id="textoinput"></textarea> 
+             </div>     
+             <h3 class="intermitente">! advertencia ¡ solo minusculas</h3>
+             <div class="container__botones">
+                
+                <button onclick="encriptar();" class="container__boton">Encriptar</button>
+                <button onclick="desencriptar();" class="container__boton" id="reiniciar" >Desencriptar</button>
+          
+            </div>
+        </div>
+
+        <div class="container__texto">
+            <div class="texto_out">
+                <h1 id="h1_text"></h1>
+            </div>
+                <div class="container__botonesC">
+                  <button onclick="trans();" class="container__botonC" >Trans</button>
+  
+                   <button onclick="copiar();" class="container__botonC" id="copiar" >Copiar</button>
+                </div>
+        </div>
+
+
+
+    </main>
+   
+</body>
+
+</html>
